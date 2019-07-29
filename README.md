@@ -1,13 +1,20 @@
 # FourCC
 
-A small cli app written in python for quickly converting four chars to there respective fourcc.
+A CLI app written in python, which concatenates four chars into a single 4 byte hex value known as a fourcc.
 
 ## Install
 ```
-python setup.py install
+install.sh
+or
+install.bat
 ```
 
 ## Usage
+```
+fourcc --help
+```
+
+## Example
 ```
 fourcc -l test
 ```
